@@ -67,7 +67,7 @@ public class Main {
         if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе");
         }
-        if (childAge >= 5 && childAge < 14) {
+        else if (childAge >= 5 && childAge < 14) {
             System.out.println("Если возраст ребенка равен " + childAge +
                     ", то ему можно кататься на аттракционе в сопровождении взрослого");
         }
@@ -86,10 +86,10 @@ public class Main {
             System.out.println("Нет мест");
        }
 
-        if (numberOfPassengers >= seats && numberOfPassengers < wagonCapacity) {
+        else if (numberOfPassengers >= seats && numberOfPassengers < wagonCapacity) {
             System.out.println("стоячие");
         }
-        if (numberOfPassengers < seats ) {
+        else if (numberOfPassengers < seats) {
             System.out.println("сидячие и стоячие");
         }
 
@@ -103,7 +103,7 @@ public class Main {
         if (one > two && one > three) {
             System.out.println(one + " больше чем " + two + " и " + three);
         }
-        if (two > one && two > three) {
+        else if (two > one && two > three) {
             System.out.println(two + " больше чем " + one + " и " + three);
         }
         else {
